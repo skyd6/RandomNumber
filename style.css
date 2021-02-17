@@ -12,6 +12,12 @@ h1{
     text-align: center;
 }
 
+h2{
+    position: relative;
+    text-align: center;
+    color: rgb(255, 235, 147);
+}
+
 #userBox, #botBox{
     /* border: black 1px solid;
     border-radius: 5%;
@@ -48,9 +54,10 @@ h1{
     display: flex;
     margin: auto;
     margin-left: 47.1%;
-    margin-top: 10%;
+    margin-top: 12%;
     border-radius: 10%;
     background-color: rgb(255, 255, 255);
+    opacity: 0;
 }
 
 #finalResult{
