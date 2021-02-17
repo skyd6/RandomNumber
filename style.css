@@ -1,0 +1,81 @@
+body{
+    background-image: url(./Ressources/background.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+h1{
+    font-size: 7em;
+    margin: 0;
+    font-family: Impact;
+    color: rgb(255, 213, 25);
+    text-align: center;
+}
+
+#userBox, #botBox{
+    /* border: black 1px solid;
+    border-radius: 5%;
+    background-color: rgb(139, 246, 253); */
+    width: 40%;
+    height: auto;
+    margin-top: 5%;
+}
+
+#userBox{
+    position: absolute;
+    margin-left: 5%;
+}
+
+#botBox{
+    position: absolute;
+    margin-left: 55%;
+}
+
+#resultUser, #resultBot{
+    font-size: 15em;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+}
+
+#userBtn{
+    width: 5%;
+    height: 8%;
+    position: absolute;
+    display: flex;
+    margin: auto;
+    margin-left: 47.1%;
+    margin-top: 10%;
+    border-radius: 10%;
+    background-color: rgb(255, 255, 255);
+}
+
+#finalResult{
+    font-size: 10em;
+    position: relative;
+    text-align: center;
+    font-family: Arial;
+    margin-top: 25%;
+    color: rgb(255, 213, 25);
+    font-weight: bold;
+}
+
+#userScore, #botScore{
+    color: white;
+    font-size: 5em;
+}
+
+#userScore{
+    position: absolute;
+    margin: auto;
+    margin-left: 15%;
+}
+
+#botScore{
+    position: absolute;
+    margin: auto;
+    margin-left: 80%;
+}
